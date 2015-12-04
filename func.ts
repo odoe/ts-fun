@@ -1,5 +1,5 @@
 // a -> a
-export const identity = (x:any) => x;
+export const identity = (x) => x;
 // a -> a
 export const identityf = (x) => () => x;
 // (a -> a) -> (a -> a)
